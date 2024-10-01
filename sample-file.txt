@@ -1,0 +1,2 @@
+This is sample file
+and I am learning NODE JS core module =  fs
