@@ -1,8 +1,8 @@
 
 console.log('My first app');
+const os = require('os');
 
 console.log("=============== Built in Module - OS =======================");
-const os = require('os');
 
 // return the cpu architecture
 console.log(`Arch             : ${os.arch()}`);
@@ -42,3 +42,5 @@ console.log("Process :",process);
 console.log(`File Name      : ${__filename}`);
 console.log(`Directory Name : ${__dirname}`);
 console.log("Module  :",module);
+
+
